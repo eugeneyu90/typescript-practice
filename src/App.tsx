@@ -5,7 +5,7 @@ import axios from 'axios';
 
 // TODO Features
 // 1. Auto focus on input box
-// 2. Email Domain Suggestions
+// 2. Email Domain Suggestions - Done
 // 3. Error Handling
 
 // Imagine you have a list of domains that you'd like to autosuggest.
