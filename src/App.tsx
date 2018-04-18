@@ -255,7 +255,7 @@ class App extends React.Component<Props, any> {
         console.log('Got a match!');
         console.log(this.state.isFocused);
         if (this.state.isFocused === false) {
-          // Using Proxy instead of creating an endpoint in a backend Node/Express server
+          // CORS - Using Proxy instead of creating an endpoint in a backend Node/Express server
           const proxyUrl = 'https://no-cors-proxy.herokuapp.com/';
           const targetUrl = 'https://api.kickbox.com/v2/verify';
           axios({
